@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "generator": "hole-feature-extractor-tests",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/course_1",
+        "golf:course:name": "National Golf Club",
+        "type": "boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.030, 33.490],
+            [-82.010, 33.490],
+            [-82.010, 33.515],
+            [-82.030, 33.515],
+            [-82.030, 33.490]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_cl",
+        "golf": "hole",
+        "ref": "1",
+        "name": "Tea Olive",
+        "par": "4",
+        "handicap": "5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-82.02000, 33.50000],
+          [-82.02000, 33.50200],
+          [-82.02000, 33.50400]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_tee",
+        "golf": "tee",
+        "tee": "championship",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.02005, 33.49995],
+            [-82.01995, 33.49995],
+            [-82.01995, 33.50005],
+            [-82.02005, 33.50005],
+            [-82.02005, 33.49995]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_fairway",
+        "golf": "fairway",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.02020, 33.50050],
+            [-82.01980, 33.50050],
+            [-82.01980, 33.50350],
+            [-82.02020, 33.50350],
+            [-82.02020, 33.50050]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_green",
+        "golf": "green",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.02015, 33.50385],
+            [-82.01985, 33.50385],
+            [-82.01985, 33.50415],
+            [-82.02015, 33.50415],
+            [-82.02015, 33.50385]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/hole_1_pin",
+        "golf": "pin",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.02000, 33.50400]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_fw_bunker",
+        "golf": "bunker",
+        "description": "Right fairway bunker",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.01975, 33.50190],
+            [-82.01965, 33.50190],
+            [-82.01965, 33.50210],
+            [-82.01975, 33.50210],
+            [-82.01975, 33.50190]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_gs_bunker",
+        "golf": "bunker",
+        "description": "Front-left greenside bunker",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.02025, 33.50380],
+            [-82.02018, 33.50380],
+            [-82.02018, 33.50395],
+            [-82.02025, 33.50395],
+            [-82.02025, 33.50380]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/hole_1_water",
+        "golf": "lateral_water_hazard",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.02080, 33.50200],
+            [-82.02040, 33.50200],
+            [-82.02040, 33.50300],
+            [-82.02080, 33.50300],
+            [-82.02080, 33.50200]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/course_rough_1",
+        "golf": "rough"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-82.02200, 33.49900],
+            [-82.01800, 33.49900],
+            [-82.01800, 33.50600],
+            [-82.02200, 33.50600],
+            [-82.02200, 33.49900]
+          ]
+        ]
+      }
+    }
+  ]
+}
