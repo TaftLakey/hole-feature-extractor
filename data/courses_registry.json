@@ -1,0 +1,2095 @@
+{
+  "metadata": {
+    "total_tournaments_processed": 48,
+    "successful_tournaments": 48,
+    "failed_tournaments": 0,
+    "total_unique_courses": 49
+  },
+  "courses": {
+    "Oakmont Country Club": {
+      "course_name": "Oakmont Country Club",
+      "course_id": "608",
+      "course_code": "OC",
+      "scoring_level": "BASIC",
+      "tournaments": [
+        {
+          "tournament_id": "R2025026",
+          "tournament_name": "U.S. Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Torrey Pines Golf Course (South Course)": {
+      "course_name": "Torrey Pines Golf Course (South Course)",
+      "course_id": "939",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025007",
+          "tournament_name": "The Genesis Invitational",
+          "host_course": true
+        },
+        {
+          "tournament_id": "R2025004",
+          "tournament_name": "Farmers Insurance Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Quail Hollow Club": {
+      "course_name": "Quail Hollow Club",
+      "course_id": "241",
+      "course_code": "QH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025033",
+          "tournament_name": "PGA Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Muirfield Village Golf Club": {
+      "course_name": "Muirfield Village Golf Club",
+      "course_id": "023",
+      "course_code": "MV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025023",
+          "tournament_name": "the Memorial Tournament presented by Workday",
+          "host_course": true
+        }
+      ]
+    },
+    "Hurstbourne Country Club": {
+      "course_name": "Hurstbourne Country Club",
+      "course_id": "934",
+      "course_code": "HB",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025518",
+          "tournament_name": "ISCO Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Innisbrook Resort (Copperhead Course)": {
+      "course_name": "Innisbrook Resort (Copperhead Course)",
+      "course_id": "665",
+      "course_code": "WI",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025475",
+          "tournament_name": "Valspar Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Augusta National Golf Club": {
+      "course_name": "Augusta National Golf Club",
+      "course_id": "014",
+      "course_code": "AN",
+      "scoring_level": "BASIC",
+      "tournaments": [
+        {
+          "tournament_id": "R2025014",
+          "tournament_name": "Masters Tournament",
+          "host_course": true
+        }
+      ]
+    },
+    "Arnold Palmer's Bay Hill Club & Lodge": {
+      "course_name": "Arnold Palmer's Bay Hill Club & Lodge",
+      "course_id": "009",
+      "course_code": "BH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025009",
+          "tournament_name": "Arnold Palmer Invitational presented by Mastercard",
+          "host_course": true
+        }
+      ]
+    },
+    "Torrey Pines Golf Course (North Course)": {
+      "course_name": "Torrey Pines Golf Course (North Course)",
+      "course_id": "104",
+      "course_code": "NC",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025004",
+          "tournament_name": "Farmers Insurance Open",
+          "host_course": false
+        }
+      ]
+    },
+    "Royal Portrush Golf Club": {
+      "course_name": "Royal Portrush Golf Club",
+      "course_id": "885",
+      "course_code": "RP",
+      "scoring_level": "BASIC",
+      "tournaments": [
+        {
+          "tournament_id": "R2025100",
+          "tournament_name": "The Open Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC San Antonio (Oaks Course)": {
+      "course_name": "TPC San Antonio (Oaks Course)",
+      "course_id": "770",
+      "course_code": "SA",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025041",
+          "tournament_name": "Valero Texas Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Caves Valley Golf Club": {
+      "course_name": "Caves Valley Golf Club",
+      "course_id": "882",
+      "course_code": "CV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025028",
+          "tournament_name": "BMW Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Sawgrass (THE PLAYERS Stadium Course)": {
+      "course_name": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+      "course_id": "011",
+      "course_code": "SA",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025011",
+          "tournament_name": "THE PLAYERS Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Port Royal Golf Course": {
+      "course_name": "Port Royal Golf Course",
+      "course_id": "765",
+      "course_code": "PR",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025528",
+          "tournament_name": "Butterfield Bermuda Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Colonial Country Club": {
+      "course_name": "Colonial Country Club",
+      "course_id": "021",
+      "course_code": "CC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025021",
+          "tournament_name": "Charles Schwab Challenge",
+          "host_course": true
+        }
+      ]
+    },
+    "The Renaissance Club": {
+      "course_name": "The Renaissance Club",
+      "course_id": "977",
+      "course_code": "RC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025541",
+          "tournament_name": "Genesis Scottish Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Silverado Resort (North Course)": {
+      "course_name": "Silverado Resort (North Course)",
+      "course_id": "926",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025464",
+          "tournament_name": "Procore Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Tahoe Mountain Club (Old Greenwood)": {
+      "course_name": "Tahoe Mountain Club (Old Greenwood)",
+      "course_id": "931",
+      "course_code": "MT",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025472",
+          "tournament_name": "Barracuda Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "La Quinta Country Club": {
+      "course_name": "La Quinta Country Club",
+      "course_id": "202",
+      "course_code": "LQ",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025002",
+          "tournament_name": "The American Express",
+          "host_course": false
+        }
+      ]
+    },
+    "Pete Dye Stadium Course": {
+      "course_name": "Pete Dye Stadium Course",
+      "course_id": "704",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025002",
+          "tournament_name": "The American Express",
+          "host_course": true
+        }
+      ]
+    },
+    "Nicklaus Tournament Course": {
+      "course_name": "Nicklaus Tournament Course",
+      "course_id": "233",
+      "course_code": "NT",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025002",
+          "tournament_name": "The American Express",
+          "host_course": false
+        }
+      ]
+    },
+    "Dunes Golf and Beach Club": {
+      "course_name": "Dunes Golf and Beach Club",
+      "course_id": "925",
+      "course_code": "DG",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025553",
+          "tournament_name": "ONEflight Myrtle Beach Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC River Highlands": {
+      "course_name": "TPC River Highlands",
+      "course_id": "503",
+      "course_code": "TR",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025034",
+          "tournament_name": "Travelers Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Puntacana Resort & Club (Corales Golf Course)": {
+      "course_name": "Puntacana Resort & Club (Corales Golf Course)",
+      "course_id": "244",
+      "course_code": "CR",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025522",
+          "tournament_name": "Corales Puntacana Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Sedgefield Country Club": {
+      "course_name": "Sedgefield Country Club",
+      "course_id": "752",
+      "course_code": "SF",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025013",
+          "tournament_name": "Wyndham Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Southwind": {
+      "course_name": "TPC Southwind",
+      "course_id": "513",
+      "course_code": "SW",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025027",
+          "tournament_name": "FedEx St. Jude Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Yokohama Country Club (West Course)": {
+      "course_name": "Yokohama Country Club (West Course)",
+      "course_id": "936",
+      "course_code": "YH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025527",
+          "tournament_name": "Baycurrent Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "The Philadelphia Cricket Club (Wissahickon Course)": {
+      "course_name": "The Philadelphia Cricket Club (Wissahickon Course)",
+      "course_id": "379",
+      "course_code": "PC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025480",
+          "tournament_name": "Truist Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Scottsdale (Stadium Course)": {
+      "course_name": "TPC Scottsdale (Stadium Course)",
+      "course_id": "510",
+      "course_code": "TS",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025003",
+          "tournament_name": "WM Phoenix Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Memorial Park Golf Course": {
+      "course_name": "Memorial Park Golf Course",
+      "course_id": "897",
+      "course_code": "MP",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025020",
+          "tournament_name": "Texas Children's Houston Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Black Desert Resort": {
+      "course_name": "Black Desert Resort",
+      "course_id": "930",
+      "course_code": "BD",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025554",
+          "tournament_name": "Bank of Utah Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Toronto at Osprey Valley (North Course)": {
+      "course_name": "TPC Toronto at Osprey Valley (North Course)",
+      "course_id": "935",
+      "course_code": "OV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025032",
+          "tournament_name": "RBC Canadian Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Waialae Country Club": {
+      "course_name": "Waialae Country Club",
+      "course_id": "006",
+      "course_code": "WC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025006",
+          "tournament_name": "Sony Open in Hawaii",
+          "host_course": true
+        }
+      ]
+    },
+    "Vidanta Vallarta": {
+      "course_name": "Vidanta Vallarta",
+      "course_id": "978",
+      "course_code": "VV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025540",
+          "tournament_name": "Mexico Open at VidantaWorld",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Deere Run": {
+      "course_name": "TPC Deere Run",
+      "course_id": "669",
+      "course_code": "DR",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025030",
+          "tournament_name": "John Deere Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "Harbour Town Golf Links": {
+      "course_name": "Harbour Town Golf Links",
+      "course_id": "012",
+      "course_code": "HT",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025012",
+          "tournament_name": "RBC Heritage",
+          "host_course": true
+        }
+      ]
+    },
+    "PGA National Resort (The Champion Course)": {
+      "course_name": "PGA National Resort (The Champion Course)",
+      "course_id": "928",
+      "course_code": "CC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025010",
+          "tournament_name": "Cognizant Classic in The Palm Beaches",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Craig Ranch": {
+      "course_name": "TPC Craig Ranch",
+      "course_id": "921",
+      "course_code": "CR",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025019",
+          "tournament_name": "THE CJ CUP Byron Nelson",
+          "host_course": true
+        }
+      ]
+    },
+    "Pebble Beach Golf Links": {
+      "course_name": "Pebble Beach Golf Links",
+      "course_id": "005",
+      "course_code": "PB",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025005",
+          "tournament_name": "AT&T Pebble Beach Pro-Am",
+          "host_course": true
+        }
+      ]
+    },
+    "Spyglass Hill Golf Course": {
+      "course_name": "Spyglass Hill Golf Course",
+      "course_id": "205",
+      "course_code": "SH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025005",
+          "tournament_name": "AT&T Pebble Beach Pro-Am",
+          "host_course": false
+        }
+      ]
+    },
+    "The Country Club of Jackson": {
+      "course_name": "The Country Club of Jackson",
+      "course_id": "746",
+      "course_code": "CJ",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025054",
+          "tournament_name": "Sanderson Farms Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "TPC Twin Cities": {
+      "course_name": "TPC Twin Cities",
+      "course_id": "883",
+      "course_code": "TC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025525",
+          "tournament_name": "3M Open",
+          "host_course": true
+        }
+      ]
+    },
+    "East Lake Golf Club": {
+      "course_name": "East Lake Golf Club",
+      "course_id": "688",
+      "course_code": "EL",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025060",
+          "tournament_name": "TOUR Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Sea Island Golf Club (Seaside Course)": {
+      "course_name": "Sea Island Golf Club (Seaside Course)",
+      "course_id": "776",
+      "course_code": "SS",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025493",
+          "tournament_name": "The RSM Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "Sea Island Golf Club (Plantation Course)": {
+      "course_name": "Sea Island Golf Club (Plantation Course)",
+      "course_id": "889",
+      "course_code": "PL",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025493",
+          "tournament_name": "The RSM Classic",
+          "host_course": false
+        }
+      ]
+    },
+    "Grand Reserve Golf Club": {
+      "course_name": "Grand Reserve Golf Club",
+      "course_id": "940",
+      "course_code": "GR",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025483",
+          "tournament_name": "Puerto Rico Open",
+          "host_course": true
+        }
+      ]
+    },
+    "Detroit Golf Club": {
+      "course_name": "Detroit Golf Club",
+      "course_id": "876",
+      "course_code": "DG",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025524",
+          "tournament_name": "Rocket Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "El Cardonal at Diamante": {
+      "course_name": "El Cardonal at Diamante",
+      "course_id": "919",
+      "course_code": "CD",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025457",
+          "tournament_name": "World Wide Technology Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "Plantation Course at Kapalua": {
+      "course_name": "Plantation Course at Kapalua",
+      "course_id": "656",
+      "course_code": "PC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025016",
+          "tournament_name": "The Sentry",
+          "host_course": true
+        }
+      ]
+    }
+  },
+  "courses_by_id": {
+    "608": {
+      "course_name": "Oakmont Country Club",
+      "course_id": "608",
+      "course_code": "OC",
+      "scoring_level": "BASIC",
+      "tournaments": [
+        {
+          "tournament_id": "R2025026",
+          "tournament_name": "U.S. Open",
+          "host_course": true
+        }
+      ]
+    },
+    "939": {
+      "course_name": "Torrey Pines Golf Course (South Course)",
+      "course_id": "939",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025007",
+          "tournament_name": "The Genesis Invitational",
+          "host_course": true
+        },
+        {
+          "tournament_id": "R2025004",
+          "tournament_name": "Farmers Insurance Open",
+          "host_course": true
+        }
+      ]
+    },
+    "241": {
+      "course_name": "Quail Hollow Club",
+      "course_id": "241",
+      "course_code": "QH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025033",
+          "tournament_name": "PGA Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "023": {
+      "course_name": "Muirfield Village Golf Club",
+      "course_id": "023",
+      "course_code": "MV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025023",
+          "tournament_name": "the Memorial Tournament presented by Workday",
+          "host_course": true
+        }
+      ]
+    },
+    "934": {
+      "course_name": "Hurstbourne Country Club",
+      "course_id": "934",
+      "course_code": "HB",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025518",
+          "tournament_name": "ISCO Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "665": {
+      "course_name": "Innisbrook Resort (Copperhead Course)",
+      "course_id": "665",
+      "course_code": "WI",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025475",
+          "tournament_name": "Valspar Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "014": {
+      "course_name": "Augusta National Golf Club",
+      "course_id": "014",
+      "course_code": "AN",
+      "scoring_level": "BASIC",
+      "tournaments": [
+        {
+          "tournament_id": "R2025014",
+          "tournament_name": "Masters Tournament",
+          "host_course": true
+        }
+      ]
+    },
+    "009": {
+      "course_name": "Arnold Palmer's Bay Hill Club & Lodge",
+      "course_id": "009",
+      "course_code": "BH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025009",
+          "tournament_name": "Arnold Palmer Invitational presented by Mastercard",
+          "host_course": true
+        }
+      ]
+    },
+    "004": {
+      "course_name": "Torrey Pines Golf Course (South Course)",
+      "course_id": "939",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025007",
+          "tournament_name": "The Genesis Invitational",
+          "host_course": true
+        },
+        {
+          "tournament_id": "R2025004",
+          "tournament_name": "Farmers Insurance Open",
+          "host_course": true
+        }
+      ]
+    },
+    "104": {
+      "course_name": "Torrey Pines Golf Course (North Course)",
+      "course_id": "104",
+      "course_code": "NC",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025004",
+          "tournament_name": "Farmers Insurance Open",
+          "host_course": false
+        }
+      ]
+    },
+    "885": {
+      "course_name": "Royal Portrush Golf Club",
+      "course_id": "885",
+      "course_code": "RP",
+      "scoring_level": "BASIC",
+      "tournaments": [
+        {
+          "tournament_id": "R2025100",
+          "tournament_name": "The Open Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "770": {
+      "course_name": "TPC San Antonio (Oaks Course)",
+      "course_id": "770",
+      "course_code": "SA",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025041",
+          "tournament_name": "Valero Texas Open",
+          "host_course": true
+        }
+      ]
+    },
+    "882": {
+      "course_name": "Caves Valley Golf Club",
+      "course_id": "882",
+      "course_code": "CV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025028",
+          "tournament_name": "BMW Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "011": {
+      "course_name": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+      "course_id": "011",
+      "course_code": "SA",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025011",
+          "tournament_name": "THE PLAYERS Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "765": {
+      "course_name": "Port Royal Golf Course",
+      "course_id": "765",
+      "course_code": "PR",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025528",
+          "tournament_name": "Butterfield Bermuda Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "021": {
+      "course_name": "Colonial Country Club",
+      "course_id": "021",
+      "course_code": "CC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025021",
+          "tournament_name": "Charles Schwab Challenge",
+          "host_course": true
+        }
+      ]
+    },
+    "977": {
+      "course_name": "The Renaissance Club",
+      "course_id": "977",
+      "course_code": "RC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025541",
+          "tournament_name": "Genesis Scottish Open",
+          "host_course": true
+        }
+      ]
+    },
+    "926": {
+      "course_name": "Silverado Resort (North Course)",
+      "course_id": "926",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025464",
+          "tournament_name": "Procore Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "931": {
+      "course_name": "Tahoe Mountain Club (Old Greenwood)",
+      "course_id": "931",
+      "course_code": "MT",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025472",
+          "tournament_name": "Barracuda Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "202": {
+      "course_name": "La Quinta Country Club",
+      "course_id": "202",
+      "course_code": "LQ",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025002",
+          "tournament_name": "The American Express",
+          "host_course": false
+        }
+      ]
+    },
+    "704": {
+      "course_name": "Pete Dye Stadium Course",
+      "course_id": "704",
+      "course_code": "SC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025002",
+          "tournament_name": "The American Express",
+          "host_course": true
+        }
+      ]
+    },
+    "233": {
+      "course_name": "Nicklaus Tournament Course",
+      "course_id": "233",
+      "course_code": "NT",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025002",
+          "tournament_name": "The American Express",
+          "host_course": false
+        }
+      ]
+    },
+    "925": {
+      "course_name": "Dunes Golf and Beach Club",
+      "course_id": "925",
+      "course_code": "DG",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025553",
+          "tournament_name": "ONEflight Myrtle Beach Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "503": {
+      "course_name": "TPC River Highlands",
+      "course_id": "503",
+      "course_code": "TR",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025034",
+          "tournament_name": "Travelers Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "244": {
+      "course_name": "Puntacana Resort & Club (Corales Golf Course)",
+      "course_id": "244",
+      "course_code": "CR",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025522",
+          "tournament_name": "Corales Puntacana Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "752": {
+      "course_name": "Sedgefield Country Club",
+      "course_id": "752",
+      "course_code": "SF",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025013",
+          "tournament_name": "Wyndham Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "513": {
+      "course_name": "TPC Southwind",
+      "course_id": "513",
+      "course_code": "SW",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025027",
+          "tournament_name": "FedEx St. Jude Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "936": {
+      "course_name": "Yokohama Country Club (West Course)",
+      "course_id": "936",
+      "course_code": "YH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025527",
+          "tournament_name": "Baycurrent Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "379": {
+      "course_name": "The Philadelphia Cricket Club (Wissahickon Course)",
+      "course_id": "379",
+      "course_code": "PC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025480",
+          "tournament_name": "Truist Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "510": {
+      "course_name": "TPC Scottsdale (Stadium Course)",
+      "course_id": "510",
+      "course_code": "TS",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025003",
+          "tournament_name": "WM Phoenix Open",
+          "host_course": true
+        }
+      ]
+    },
+    "897": {
+      "course_name": "Memorial Park Golf Course",
+      "course_id": "897",
+      "course_code": "MP",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025020",
+          "tournament_name": "Texas Children's Houston Open",
+          "host_course": true
+        }
+      ]
+    },
+    "930": {
+      "course_name": "Black Desert Resort",
+      "course_id": "930",
+      "course_code": "BD",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025554",
+          "tournament_name": "Bank of Utah Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "935": {
+      "course_name": "TPC Toronto at Osprey Valley (North Course)",
+      "course_id": "935",
+      "course_code": "OV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025032",
+          "tournament_name": "RBC Canadian Open",
+          "host_course": true
+        }
+      ]
+    },
+    "006": {
+      "course_name": "Waialae Country Club",
+      "course_id": "006",
+      "course_code": "WC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025006",
+          "tournament_name": "Sony Open in Hawaii",
+          "host_course": true
+        }
+      ]
+    },
+    "978": {
+      "course_name": "Vidanta Vallarta",
+      "course_id": "978",
+      "course_code": "VV",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025540",
+          "tournament_name": "Mexico Open at VidantaWorld",
+          "host_course": true
+        }
+      ]
+    },
+    "669": {
+      "course_name": "TPC Deere Run",
+      "course_id": "669",
+      "course_code": "DR",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025030",
+          "tournament_name": "John Deere Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "012": {
+      "course_name": "Harbour Town Golf Links",
+      "course_id": "012",
+      "course_code": "HT",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025012",
+          "tournament_name": "RBC Heritage",
+          "host_course": true
+        }
+      ]
+    },
+    "928": {
+      "course_name": "PGA National Resort (The Champion Course)",
+      "course_id": "928",
+      "course_code": "CC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025010",
+          "tournament_name": "Cognizant Classic in The Palm Beaches",
+          "host_course": true
+        }
+      ]
+    },
+    "921": {
+      "course_name": "TPC Craig Ranch",
+      "course_id": "921",
+      "course_code": "CR",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025019",
+          "tournament_name": "THE CJ CUP Byron Nelson",
+          "host_course": true
+        }
+      ]
+    },
+    "005": {
+      "course_name": "Pebble Beach Golf Links",
+      "course_id": "005",
+      "course_code": "PB",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025005",
+          "tournament_name": "AT&T Pebble Beach Pro-Am",
+          "host_course": true
+        }
+      ]
+    },
+    "205": {
+      "course_name": "Spyglass Hill Golf Course",
+      "course_id": "205",
+      "course_code": "SH",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025005",
+          "tournament_name": "AT&T Pebble Beach Pro-Am",
+          "host_course": false
+        }
+      ]
+    },
+    "746": {
+      "course_name": "The Country Club of Jackson",
+      "course_id": "746",
+      "course_code": "CJ",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025054",
+          "tournament_name": "Sanderson Farms Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "883": {
+      "course_name": "TPC Twin Cities",
+      "course_id": "883",
+      "course_code": "TC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025525",
+          "tournament_name": "3M Open",
+          "host_course": true
+        }
+      ]
+    },
+    "688": {
+      "course_name": "East Lake Golf Club",
+      "course_id": "688",
+      "course_code": "EL",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025060",
+          "tournament_name": "TOUR Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "776": {
+      "course_name": "Sea Island Golf Club (Seaside Course)",
+      "course_id": "776",
+      "course_code": "SS",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025493",
+          "tournament_name": "The RSM Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "889": {
+      "course_name": "Sea Island Golf Club (Plantation Course)",
+      "course_id": "889",
+      "course_code": "PL",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025493",
+          "tournament_name": "The RSM Classic",
+          "host_course": false
+        }
+      ]
+    },
+    "940": {
+      "course_name": "Grand Reserve Golf Club",
+      "course_id": "940",
+      "course_code": "GR",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025483",
+          "tournament_name": "Puerto Rico Open",
+          "host_course": true
+        }
+      ]
+    },
+    "876": {
+      "course_name": "Detroit Golf Club",
+      "course_id": "876",
+      "course_code": "DG",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025524",
+          "tournament_name": "Rocket Classic",
+          "host_course": true
+        }
+      ]
+    },
+    "919": {
+      "course_name": "El Cardonal at Diamante",
+      "course_id": "919",
+      "course_code": "CD",
+      "scoring_level": "STATS",
+      "tournaments": [
+        {
+          "tournament_id": "R2025457",
+          "tournament_name": "World Wide Technology Championship",
+          "host_course": true
+        }
+      ]
+    },
+    "656": {
+      "course_name": "Plantation Course at Kapalua",
+      "course_id": "656",
+      "course_code": "PC",
+      "scoring_level": "TOURCAST",
+      "tournaments": [
+        {
+          "tournament_id": "R2025016",
+          "tournament_name": "The Sentry",
+          "host_course": true
+        }
+      ]
+    }
+  },
+  "tournaments": {
+    "R2025026": {
+      "tournament_id": "R2025026",
+      "tournament_name": "U.S. Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "608",
+          "course_name": "Oakmont Country Club",
+          "course_code": "OC",
+          "scoring_level": "BASIC",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025007": {
+      "tournament_id": "R2025007",
+      "tournament_name": "The Genesis Invitational",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "939",
+          "course_name": "Torrey Pines Golf Course (South Course)",
+          "course_code": "SC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025033": {
+      "tournament_id": "R2025033",
+      "tournament_name": "PGA Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "241",
+          "course_name": "Quail Hollow Club",
+          "course_code": "QH",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025023": {
+      "tournament_id": "R2025023",
+      "tournament_name": "the Memorial Tournament presented by Workday",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "023",
+          "course_name": "Muirfield Village Golf Club",
+          "course_code": "MV",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025518": {
+      "tournament_id": "R2025518",
+      "tournament_name": "ISCO Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "934",
+          "course_name": "Hurstbourne Country Club",
+          "course_code": "HB",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025475": {
+      "tournament_id": "R2025475",
+      "tournament_name": "Valspar Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "665",
+          "course_name": "Innisbrook Resort (Copperhead Course)",
+          "course_code": "WI",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025014": {
+      "tournament_id": "R2025014",
+      "tournament_name": "Masters Tournament",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "014",
+          "course_name": "Augusta National Golf Club",
+          "course_code": "AN",
+          "scoring_level": "BASIC",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025009": {
+      "tournament_id": "R2025009",
+      "tournament_name": "Arnold Palmer Invitational presented by Mastercard",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "009",
+          "course_name": "Arnold Palmer's Bay Hill Club & Lodge",
+          "course_code": "BH",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025004": {
+      "tournament_id": "R2025004",
+      "tournament_name": "Farmers Insurance Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 2,
+      "courses": [
+        {
+          "course_id": "004",
+          "course_name": "Torrey Pines Golf Course (South Course)",
+          "course_code": "SC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        },
+        {
+          "course_id": "104",
+          "course_name": "Torrey Pines Golf Course (North Course)",
+          "course_code": "NC",
+          "scoring_level": "STATS",
+          "host_course": false
+        }
+      ]
+    },
+    "R2025100": {
+      "tournament_id": "R2025100",
+      "tournament_name": "The Open Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "885",
+          "course_name": "Royal Portrush Golf Club",
+          "course_code": "RP",
+          "scoring_level": "BASIC",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025041": {
+      "tournament_id": "R2025041",
+      "tournament_name": "Valero Texas Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "770",
+          "course_name": "TPC San Antonio (Oaks Course)",
+          "course_code": "SA",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025028": {
+      "tournament_id": "R2025028",
+      "tournament_name": "BMW Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "882",
+          "course_name": "Caves Valley Golf Club",
+          "course_code": "CV",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025011": {
+      "tournament_id": "R2025011",
+      "tournament_name": "THE PLAYERS Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "011",
+          "course_name": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+          "course_code": "SA",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025528": {
+      "tournament_id": "R2025528",
+      "tournament_name": "Butterfield Bermuda Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "765",
+          "course_name": "Port Royal Golf Course",
+          "course_code": "PR",
+          "scoring_level": "STATS",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025021": {
+      "tournament_id": "R2025021",
+      "tournament_name": "Charles Schwab Challenge",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "021",
+          "course_name": "Colonial Country Club",
+          "course_code": "CC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025541": {
+      "tournament_id": "R2025541",
+      "tournament_name": "Genesis Scottish Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "977",
+          "course_name": "The Renaissance Club",
+          "course_code": "RC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025464": {
+      "tournament_id": "R2025464",
+      "tournament_name": "Procore Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "926",
+          "course_name": "Silverado Resort (North Course)",
+          "course_code": "SC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025472": {
+      "tournament_id": "R2025472",
+      "tournament_name": "Barracuda Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "931",
+          "course_name": "Tahoe Mountain Club (Old Greenwood)",
+          "course_code": "MT",
+          "scoring_level": "STATS",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025002": {
+      "tournament_id": "R2025002",
+      "tournament_name": "The American Express",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 3,
+      "courses": [
+        {
+          "course_id": "202",
+          "course_name": "La Quinta Country Club",
+          "course_code": "LQ",
+          "scoring_level": "STATS",
+          "host_course": false
+        },
+        {
+          "course_id": "704",
+          "course_name": "Pete Dye Stadium Course",
+          "course_code": "SC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        },
+        {
+          "course_id": "233",
+          "course_name": "Nicklaus Tournament Course",
+          "course_code": "NT",
+          "scoring_level": "STATS",
+          "host_course": false
+        }
+      ]
+    },
+    "R2025553": {
+      "tournament_id": "R2025553",
+      "tournament_name": "ONEflight Myrtle Beach Classic",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "925",
+          "course_name": "Dunes Golf and Beach Club",
+          "course_code": "DG",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025034": {
+      "tournament_id": "R2025034",
+      "tournament_name": "Travelers Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "503",
+          "course_name": "TPC River Highlands",
+          "course_code": "TR",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025522": {
+      "tournament_id": "R2025522",
+      "tournament_name": "Corales Puntacana Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "244",
+          "course_name": "Puntacana Resort & Club (Corales Golf Course)",
+          "course_code": "CR",
+          "scoring_level": "STATS",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025013": {
+      "tournament_id": "R2025013",
+      "tournament_name": "Wyndham Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "752",
+          "course_name": "Sedgefield Country Club",
+          "course_code": "SF",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025027": {
+      "tournament_id": "R2025027",
+      "tournament_name": "FedEx St. Jude Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "513",
+          "course_name": "TPC Southwind",
+          "course_code": "SW",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025527": {
+      "tournament_id": "R2025527",
+      "tournament_name": "Baycurrent Classic",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "936",
+          "course_name": "Yokohama Country Club (West Course)",
+          "course_code": "YH",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025480": {
+      "tournament_id": "R2025480",
+      "tournament_name": "Truist Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "379",
+          "course_name": "The Philadelphia Cricket Club (Wissahickon Course)",
+          "course_code": "PC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025003": {
+      "tournament_id": "R2025003",
+      "tournament_name": "WM Phoenix Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "510",
+          "course_name": "TPC Scottsdale (Stadium Course)",
+          "course_code": "TS",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025020": {
+      "tournament_id": "R2025020",
+      "tournament_name": "Texas Children's Houston Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "897",
+          "course_name": "Memorial Park Golf Course",
+          "course_code": "MP",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025554": {
+      "tournament_id": "R2025554",
+      "tournament_name": "Bank of Utah Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "930",
+          "course_name": "Black Desert Resort",
+          "course_code": "BD",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025032": {
+      "tournament_id": "R2025032",
+      "tournament_name": "RBC Canadian Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "935",
+          "course_name": "TPC Toronto at Osprey Valley (North Course)",
+          "course_code": "OV",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025006": {
+      "tournament_id": "R2025006",
+      "tournament_name": "Sony Open in Hawaii",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "006",
+          "course_name": "Waialae Country Club",
+          "course_code": "WC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025540": {
+      "tournament_id": "R2025540",
+      "tournament_name": "Mexico Open at VidantaWorld",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "978",
+          "course_name": "Vidanta Vallarta",
+          "course_code": "VV",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025030": {
+      "tournament_id": "R2025030",
+      "tournament_name": "John Deere Classic",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "669",
+          "course_name": "TPC Deere Run",
+          "course_code": "DR",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025012": {
+      "tournament_id": "R2025012",
+      "tournament_name": "RBC Heritage",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "012",
+          "course_name": "Harbour Town Golf Links",
+          "course_code": "HT",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025010": {
+      "tournament_id": "R2025010",
+      "tournament_name": "Cognizant Classic in The Palm Beaches",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "928",
+          "course_name": "PGA National Resort (The Champion Course)",
+          "course_code": "CC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025019": {
+      "tournament_id": "R2025019",
+      "tournament_name": "THE CJ CUP Byron Nelson",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "921",
+          "course_name": "TPC Craig Ranch",
+          "course_code": "CR",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025005": {
+      "tournament_id": "R2025005",
+      "tournament_name": "AT&T Pebble Beach Pro-Am",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 2,
+      "courses": [
+        {
+          "course_id": "005",
+          "course_name": "Pebble Beach Golf Links",
+          "course_code": "PB",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        },
+        {
+          "course_id": "205",
+          "course_name": "Spyglass Hill Golf Course",
+          "course_code": "SH",
+          "scoring_level": "TOURCAST",
+          "host_course": false
+        }
+      ]
+    },
+    "R2025054": {
+      "tournament_id": "R2025054",
+      "tournament_name": "Sanderson Farms Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "746",
+          "course_name": "The Country Club of Jackson",
+          "course_code": "CJ",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025525": {
+      "tournament_id": "R2025525",
+      "tournament_name": "3M Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "883",
+          "course_name": "TPC Twin Cities",
+          "course_code": "TC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025060": {
+      "tournament_id": "R2025060",
+      "tournament_name": "TOUR Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "688",
+          "course_name": "East Lake Golf Club",
+          "course_code": "EL",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025493": {
+      "tournament_id": "R2025493",
+      "tournament_name": "The RSM Classic",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 2,
+      "courses": [
+        {
+          "course_id": "776",
+          "course_name": "Sea Island Golf Club (Seaside Course)",
+          "course_code": "SS",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        },
+        {
+          "course_id": "889",
+          "course_name": "Sea Island Golf Club (Plantation Course)",
+          "course_code": "PL",
+          "scoring_level": "STATS",
+          "host_course": false
+        }
+      ]
+    },
+    "R2025483": {
+      "tournament_id": "R2025483",
+      "tournament_name": "Puerto Rico Open",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "940",
+          "course_name": "Grand Reserve Golf Club",
+          "course_code": "GR",
+          "scoring_level": "STATS",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025524": {
+      "tournament_id": "R2025524",
+      "tournament_name": "Rocket Classic",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "876",
+          "course_name": "Detroit Golf Club",
+          "course_code": "DG",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025457": {
+      "tournament_id": "R2025457",
+      "tournament_name": "World Wide Technology Championship",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "919",
+          "course_name": "El Cardonal at Diamante",
+          "course_code": "CD",
+          "scoring_level": "STATS",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025016": {
+      "tournament_id": "R2025016",
+      "tournament_name": "The Sentry",
+      "round_header": "R4",
+      "status": "COMPLETED",
+      "course_count": 1,
+      "courses": [
+        {
+          "course_id": "656",
+          "course_name": "Plantation Course at Kapalua",
+          "course_code": "PC",
+          "scoring_level": "TOURCAST",
+          "host_course": true
+        }
+      ]
+    },
+    "R2025018": {
+      "tournament_id": "R2025018",
+      "tournament_name": "Zurich Classic of New Orleans",
+      "round_header": "",
+      "status": "NOT_STARTED",
+      "course_count": 0,
+      "courses": []
+    },
+    "R2025047": {
+      "tournament_id": "R2025047",
+      "tournament_name": "Shriners Children's Open",
+      "round_header": "",
+      "status": "NOT_STARTED",
+      "course_count": 0,
+      "courses": []
+    },
+    "R2025556": {
+      "tournament_id": "R2025556",
+      "tournament_name": "Cadillac Championship",
+      "round_header": "",
+      "status": "NOT_STARTED",
+      "course_count": 0,
+      "courses": []
+    }
+  }
+}

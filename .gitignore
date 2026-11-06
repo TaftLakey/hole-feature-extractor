@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Matplotlib & Test caches
+matplotlib-cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & generated output images
+output/
+data/*.png
+data/*.jpg

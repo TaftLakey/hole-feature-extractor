@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hole-feature-extractor"
+version = "0.1.0"
+description = "Parses GeoJSON golf course features into domain models with boundary checking and overhead yardage book image rendering."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "shapely>=2.0.0",
+    "pyproj>=3.5.0",
+    "matplotlib>=3.7.0",
+    "pillow>=9.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
