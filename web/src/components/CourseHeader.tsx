@@ -42,13 +42,6 @@ export const CourseHeader: React.FC<CourseHeaderProps> = ({
         >
           &larr; Courses
         </button>
-        <div>
-          <div className="course-title">{course.course_name}</div>
-          <div className="course-meta">
-            {course.total_holes} Holes &bull; Par {course.total_par} &bull;{' '}
-            {course.total_yards.toLocaleString()} Yards
-          </div>
-        </div>
       </div>
 
       <nav className="hole-pills" aria-label="Hole Navigation">

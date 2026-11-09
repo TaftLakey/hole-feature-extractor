@@ -218,14 +218,12 @@ export const CourseViewer: React.FC<CourseViewerProps> = ({
               />
             )}
 
-            {/* Bottom Right: Zoom Controls (Hole View only) */}
-            {!isOverview && (
-              <ZoomControls
-                onZoomIn={zoomIn}
-                onZoomOut={zoomOut}
-                onReset={resetView}
-              />
-            )}
+            {/* Bottom Right: Zoom Controls */}
+            <ZoomControls
+              onZoomIn={zoomIn}
+              onZoomOut={zoomOut}
+              onReset={resetView}
+            />
 
             {/* Hazard Tooltip */}
             <Tooltip tooltip={tooltip} />

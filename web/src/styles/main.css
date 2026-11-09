@@ -212,10 +212,10 @@ body {
   background: var(--bg-surface);
   border-bottom: 1px solid var(--border);
   padding: 0 1.5rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(80px, 1fr) auto minmax(80px, 1fr);
   align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
+  gap: 1rem;
   z-index: 100;
   flex-shrink: 0;
 }
@@ -223,8 +223,7 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  min-width: 260px;
+  justify-self: start;
 }
 
 .back-btn {
@@ -260,10 +259,13 @@ body {
 
 .hole-pills {
   display: flex;
+  align-items: center;
   gap: 0.35rem;
   overflow-x: auto;
   padding: 0.25rem 0;
   scrollbar-width: none;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .hole-pills::-webkit-scrollbar {
@@ -297,9 +299,9 @@ body {
 
 .header-actions {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
-  min-width: 160px;
-  justify-content: flex-end;
+  justify-self: end;
 }
 
 .action-btn {
@@ -393,6 +395,11 @@ body {
   overflow: hidden;
   background: radial-gradient(circle at center, #18281b 0%, #0d140e 100%);
   cursor: grab;
+  padding-top: 5.25rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
 }
 
 .map-container:active {

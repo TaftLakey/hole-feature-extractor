@@ -60,7 +60,7 @@ export function clampViewBox(
 
 export function usePanZoom(
   baseBounds: [number, number, number, number],
-  isOverview: boolean,
+  _isOverview: boolean,
   isTargeting: boolean
 ) {
   const baseViewBox: ViewBox = {
@@ -251,7 +251,6 @@ export function usePanZoom(
   // Wheel zoom handler
   const handleWheel = useCallback(
     (e: React.WheelEvent<SVGSVGElement>) => {
-      if (isOverview) return; // Hard locked in Overview mode
       e.preventDefault();
 
       const factor = e.deltaY > 0 ? 1.15 : 0.87;
@@ -271,7 +270,7 @@ export function usePanZoom(
       const clamped = clampViewBox(newX, newY, newW, newH, base, false);
       setCurrentViewBox(clamped);
     },
-    [isOverview]
+    []
   );
 
   return {
