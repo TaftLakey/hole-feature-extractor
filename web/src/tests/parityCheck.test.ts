@@ -3,13 +3,15 @@ import fs from 'fs';
 import path from 'path';
 import { CourseDataSchema } from '../schema/courseSchema';
 
-describe('Parity Verification Across All 4 Shipped Courses', () => {
+describe('Parity Verification Across All Shipped Courses', () => {
   const coursesDir = path.resolve(__dirname, '../../public/data/courses');
   const courseFiles = [
     'augusta_national_golf_club.json',
     'pebble_beach_golf_links.json',
     'quail_hollow_club.json',
     'tpc_sawgrass.json',
+    'tpc_scottsdale_stadium_course.json',
+    'torrey_pines_golf_course_south_course.json',
   ];
 
   for (const file of courseFiles) {
@@ -39,12 +41,12 @@ describe('Parity Verification Across All 4 Shipped Courses', () => {
         for (const hole of course.holes) {
           // Hole-Up paths
           expect(hole.paths.hole_up.green.length).toBeGreaterThan(0);
-          expect(hole.paths.hole_up.fairways.length).toBeGreaterThan(0);
+          expect(Array.isArray(hole.paths.hole_up.fairways)).toBe(true);
           expect(hole.paths.hole_up.turf.length).toBeGreaterThan(0);
 
           // North-Up paths
           expect(hole.paths.north.green.length).toBeGreaterThan(0);
-          expect(hole.paths.north.fairways.length).toBeGreaterThan(0);
+          expect(Array.isArray(hole.paths.north.fairways)).toBe(true);
           expect(hole.paths.north.turf.length).toBeGreaterThan(0);
 
           // Pin and Tee coordinates

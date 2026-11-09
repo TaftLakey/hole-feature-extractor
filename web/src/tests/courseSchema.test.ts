@@ -8,14 +8,14 @@ describe('Zod Schema Validation', () => {
     const indexPath = path.resolve(__dirname, '../../public/data/courses.json');
     const raw = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
     const parsed = CoursesIndexSchema.parse(raw);
-    expect(parsed.courses.length).toBe(4);
+    expect(parsed.courses.length).toBeGreaterThanOrEqual(4);
     expect(parsed.data_attribution.name).toBe('OpenStreetMap contributors');
   });
 
-  it('validates all 4 generated course JSON files', () => {
+  it('validates all generated course JSON files', () => {
     const coursesDir = path.resolve(__dirname, '../../public/data/courses');
     const files = fs.readdirSync(coursesDir).filter((f) => f.endsWith('.json'));
-    expect(files.length).toBe(4);
+    expect(files.length).toBeGreaterThanOrEqual(4);
 
     for (const file of files) {
       const filePath = path.join(coursesDir, file);
