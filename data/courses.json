@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-09T17:03:20.121652+00:00",
+  "data_attribution": {
+    "name": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/copyright",
+    "license": "ODbL 1.0"
+  },
+  "courses": [
+    {
+      "slug": "augusta_national_golf_club",
+      "name": "Augusta National Golf Club",
+      "holes": 18,
+      "par": 72,
+      "yards": 7595,
+      "tournaments": [
+        "Masters Tournament"
+      ],
+      "data_file": "courses/augusta_national_golf_club.json"
+    },
+    {
+      "slug": "pebble_beach_golf_links",
+      "name": "Pebble Beach Golf Links",
+      "holes": 18,
+      "par": 72,
+      "yards": 7033,
+      "tournaments": [
+        "AT&T Pebble Beach Pro-Am"
+      ],
+      "data_file": "courses/pebble_beach_golf_links.json"
+    },
+    {
+      "slug": "quail_hollow_club",
+      "name": "Quail Hollow Club",
+      "holes": 18,
+      "par": 71,
+      "yards": 7320,
+      "tournaments": [
+        "PGA Championship"
+      ],
+      "data_file": "courses/quail_hollow_club.json"
+    },
+    {
+      "slug": "tpc_sawgrass",
+      "name": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+      "holes": 18,
+      "par": 72,
+      "yards": 7202,
+      "tournaments": [
+        "THE PLAYERS Championship"
+      ],
+      "data_file": "courses/tpc_sawgrass.json"
+    }
+  ]
+}
