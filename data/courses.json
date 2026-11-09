@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-09T17:03:20.121652+00:00",
+  "generated_at": "2026-11-09T18:56:34.719423+00:00",
   "data_attribution": {
     "name": "OpenStreetMap contributors",
     "url": "https://www.openstreetmap.org/copyright",
@@ -41,6 +41,18 @@
       "data_file": "courses/quail_hollow_club.json"
     },
     {
+      "slug": "torrey_pines_golf_course_south_course",
+      "name": "Torrey Pines Golf Course (South Course)",
+      "holes": 18,
+      "par": 72,
+      "yards": 7759,
+      "tournaments": [
+        "The Genesis Invitational",
+        "Farmers Insurance Open"
+      ],
+      "data_file": "courses/torrey_pines_golf_course_south_course.json"
+    },
+    {
       "slug": "tpc_sawgrass",
       "name": "TPC Sawgrass (THE PLAYERS Stadium Course)",
       "holes": 18,
@@ -50,6 +62,17 @@
         "THE PLAYERS Championship"
       ],
       "data_file": "courses/tpc_sawgrass.json"
+    },
+    {
+      "slug": "tpc_scottsdale_stadium_course",
+      "name": "TPC Scottsdale (Stadium Course)",
+      "holes": 18,
+      "par": 71,
+      "yards": 7322,
+      "tournaments": [
+        "WM Phoenix Open"
+      ],
+      "data_file": "courses/tpc_scottsdale_stadium_course.json"
     }
   ]
 }
