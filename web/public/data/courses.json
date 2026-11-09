@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-09T21:57:23.901116+00:00",
+  "generated_at": "2026-11-09T22:43:14.989216+00:00",
   "data_attribution": {
     "name": "OpenStreetMap contributors",
     "url": "https://www.openstreetmap.org/copyright",
@@ -28,6 +28,17 @@
         "Charles Schwab Challenge"
       ],
       "data_file": "courses/colonial_country_club.json"
+    },
+    {
+      "slug": "east_lake_golf_club",
+      "name": "East Lake Golf Club",
+      "holes": 18,
+      "par": 70,
+      "yards": 7108,
+      "tournaments": [
+        "TOUR Championship"
+      ],
+      "data_file": "courses/east_lake_golf_club.json"
     },
     {
       "slug": "harbour_town_golf_links",
@@ -117,6 +128,17 @@
         "WM Phoenix Open"
       ],
       "data_file": "courses/tpc_scottsdale_stadium_course.json"
+    },
+    {
+      "slug": "tpc_southwind",
+      "name": "TPC Southwind",
+      "holes": 18,
+      "par": 71,
+      "yards": 7112,
+      "tournaments": [
+        "FedEx St. Jude Championship"
+      ],
+      "data_file": "courses/tpc_southwind.json"
     }
   ]
 }
