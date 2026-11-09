@@ -5,14 +5,10 @@ import { CourseDataSchema } from '../schema/courseSchema';
 
 describe('Parity Verification Across All Shipped Courses', () => {
   const coursesDir = path.resolve(__dirname, '../../public/data/courses');
-  const courseFiles = [
-    'augusta_national_golf_club.json',
-    'pebble_beach_golf_links.json',
-    'quail_hollow_club.json',
-    'tpc_sawgrass.json',
-    'tpc_scottsdale_stadium_course.json',
-    'torrey_pines_golf_course_south_course.json',
-  ];
+  const courseFiles = fs
+    .readdirSync(coursesDir)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
 
   for (const file of courseFiles) {
     describe(`Course: ${file}`, () => {

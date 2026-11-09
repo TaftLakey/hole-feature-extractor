@@ -31,10 +31,12 @@ REGISTRY_PATH = DATA_DIR / "courses_registry.json"
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OVERPASS_ENDPOINTS = [
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
     "https://lz4.overpass-api.de/api/interpreter",
     "https://z.overpass-api.de/api/interpreter",
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
 ]
 
 _contact = os.environ.get("OSM_CONTACT_EMAIL", "https://github.com/golf-course-viewer")
