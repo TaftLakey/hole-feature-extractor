@@ -1,25 +1,41 @@
-# Python bytecode
+# Python bytecode & cache
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
+*.egg-info/
 build/
 dist/
-*.egg-info/
 
 # Environments
 .venv/
 venv/
 env/
 
-# Matplotlib & Test caches
-matplotlib-cache/
+# Test & coverage caches
 .pytest_cache/
 .coverage
 htmlcov/
+matplotlib-cache/
 
 # Local data & generated output images
 output/
 data/*.png
 data/*.jpg
+pipeline/output/
+pipeline/data/*.png
+pipeline/data/*.jpg
+
+# Node / Vite web build artifacts
+node_modules/
+web/node_modules/
+web/dist/
+web/.vite/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db

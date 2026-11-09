@@ -176,9 +176,16 @@ class TestGolfGeometry(unittest.TestCase):
         from pathlib import Path
 
         # Look in data/ directory or environment variable if provided by user
+        pipeline_root = Path(__file__).resolve().parents[1]
         candidates = [
+            pipeline_root / "data" / "courses" / "augusta_national_golf_club.geojson",
+            pipeline_root / "data" / "courses" / "augusta_national.geojson",
+            pipeline_root / "data" / "courses" / "augusta.geojson",
+            pipeline_root / "data" / "augusta_national.geojson",
+            pipeline_root / "data" / "augusta.geojson",
             Path("data/augusta_national.geojson"),
             Path("data/augusta.geojson"),
+            Path("pipeline/data/augusta.geojson"),
         ]
         if "AUGUSTA_GEOJSON_PATH" in os.environ:
             candidates.insert(0, Path(os.environ["AUGUSTA_GEOJSON_PATH"]))

@@ -1,102 +1,124 @@
-# Hole Feature Extractor
+# PGA Tour Course Viewer & Hole Feature Extractor
 
-Geographical feature parser and visualization engine for golf courses. Ingests OpenStreetMap (OSM) / Overpass Turbo GeoJSON datasets into rich domain models (`GolfCourse`, `GolfHole`, `Bunker`, `WaterHazard`, `Green`, `TeeBox`, `Fairway`, `Rough`).
+> Interactive, vector-based golf course yardage books and hole-by-hole routing, powered by OpenStreetMap data and an offline Python geometry engine.
 
-## Features
+A zero-backend static web application designed for browsing championship golf courses, exploring detailed vector hole layouts, and simulating shot strategies.
 
-- **Automated Ingestion**: Parses standard GeoJSON features and groups them by hole reference into structured Python objects.
-- **Surface & Hazard Detection**: Fast point-in-polygon queries for lie identification (`green`, `fairway`, `tee`, `bunker`, `water`, `rough`, `out_of_bounds`).
-- **Yardage & Geodesic Calculations**: Local transverse Mercator projections to measure accurate distances in yards to the pin, hazards, and fairway corridors.
-- **Overhead Yardage Book Rendering**: Generates high-resolution 2D yardage book graphics oriented with tee-at-bottom and green-at-top, including yardage arcs and hazard highlights.
-- **CLI Interface**: Inspect hole details or bulk export 18-hole yardage book image assets.
+---
 
-## Installation
+## Architecture Overview
+
+```mermaid
+flowchart LR
+    A["OpenStreetMap / Overpass<br/>(Raw GeoJSON)"] --> B["Python Geometry Engine<br/>(pipeline/)"]
+    B --> C["Precomputed JSON Contract<br/>(web/public/data/)"]
+    C --> D["React + TypeScript Static App<br/>(web/)"]
+    D --> E["GitHub Pages / Static Host<br/>(No Backend, No Login)"]
+```
+
+- **Pipeline (`pipeline/`)**: Python offline build tool that downloads OpenStreetMap course data, computes transverse Mercator projections, normalizes hole orientations (Hole-Up / North-Up), and generates validated, self-contained JSON assets.
+- **Web Client (`web/`)**: High-performance React 18 + TypeScript single-page application that renders SVG layers natively with pan/zoom, yardage arcs, hazard tooltips, and a session-only multi-shot planner.
+
+---
+
+## Shipped Courses
+
+The web application ships pre-rendered JSON assets for 4 championship venues:
+
+| Course Name | Holes | Par | Total Yards | Shipped JSON Size |
+|---|---|---|---|---|
+| **Augusta National Golf Club** | 18 | 72 | 7,595 yds | 708 KB (~115 KB gzip) |
+| **Pebble Beach Golf Links** | 18 | 72 | 7,033 yds | 608 KB (~98 KB gzip) |
+| **Quail Hollow Club** | 18 | 71 | 7,320 yds | 507 KB (~82 KB gzip) |
+| **TPC Sawgrass (THE PLAYERS Stadium Course)** | 18 | 72 | 7,202 yds | 582 KB (~94 KB gzip) |
+
+---
+
+## Key Features
+
+1. **Course Dashboard / Picker**: Landing page listing courses with official tournament tags (Masters, U.S. Open, PGA Championship, The Players), total holes, par, and yardage.
+2. **Whole-Property Overview**: Spatial property view with continuous turf rough, fairways, greens, tees, water hazards, bunkers, centerlines, and interactive confirmation popups.
+3. **Overhead Yardage Book**: Pure SVG layered rendering with auto-rotated Hole-Up view (tee at bottom, green at top) and North-Up toggle.
+4. **Pan & Zoom Engine (`usePanZoom`)**: Mouse drag-to-pan, cursor-anchored wheel zoom, boundary clamping with soft margin damping (tanh rubber-band), animated snap-back, and zoom controls.
+5. **Yardage Arcs & Carry Distances**: Distance rings (100, 150, 200, 250 yds) from the pin, and hazard carry tooltips on hover.
+6. **Session-Only Multi-Shot Planner**:
+   - Sequential shot target placing.
+   - Draggable numbered shot markers.
+   - Per-shot distances ("Drive", "Shot 2"...) and remaining distance "🚩 To Pin".
+   - Undo and Clear All.
+   - **Zero persistence**: shots are kept in session component state only and reset on hole change.
+7. **Keyboard Navigation**:
+   - `ArrowRight` / `PageDown`: Next Hole
+   - `ArrowLeft` / `PageUp`: Prev Hole
+   - `Escape`: Cancel targeting mode / dismiss popups
+
+---
+
+## Quickstart
+
+### 1. Web Application (Frontend)
 
 ```bash
-pip install -r requirements.txt
+cd web
+npm install
+npm run dev
 ```
 
-Core dependencies:
-- `shapely >= 2.0.0`
-- `pyproj >= 3.5.0`
-- `matplotlib >= 3.7.0`
-- `pillow >= 9.5.0`
-- `requests >= 2.28.0`
-- `osm2geojson >= 0.3.0`
+Open `http://localhost:5173` to browse the course library locally.
 
-## Automated Course Downloader & Registry
-
-Download golf course features directly from OpenStreetMap using the course name, PGA Course ID, or Tournament ID:
+To test and build for production:
 
 ```bash
-# Download by official course name
-python src/course_downloader.py "TPC Sawgrass"
-
-# Download by course ID or tournament ID (uses courses_registry.json)
-python src/course_downloader.py 011
-python src/course_downloader.py R2025005
-
-# Download and export interactive HTML viewer in one command
-python src/course_downloader.py "Quail Hollow Club" --export-html ./output/quail_hollow.html
+npm test        # Run Vitest unit tests
+npm run build   # Typecheck and build static distribution in web/dist
 ```
 
-To sync the tournament-to-course registry from PGA Tour compressed leaderboards:
+### 2. Build Pipeline (Python)
+
+Adding or refreshing a course is a one-command step:
 
 ```bash
-python src/build_courses_registry.py --year 2025
+# Add or refresh a course by name
+python pipeline/scripts/build_site_data.py "Quail Hollow Club"
+
+# Rebuild all cached courses from data/
+python pipeline/scripts/build_site_data.py --all
+
+# Force re-download fresh OSM data
+python pipeline/scripts/build_site_data.py "TPC Sawgrass" --force
 ```
 
-## CLI Usage
+For detailed instructions and data quality warnings, see [docs/ADDING_A_COURSE.md](docs/ADDING_A_COURSE.md).
 
-### Inspect a Course or Specific Hole
+---
+
+## Testing & Quality Assurance
+
+Both the Python pipeline and React frontend maintain automated test suites:
 
 ```bash
-# Print summary of all holes
-python -m src path/to/course.geojson
+# Run Python pipeline tests (domain geometry, schema validation, atomic writes)
+python -m unittest discover pipeline/tests
 
-# Inspect a single hole in detail
-python -m src path/to/course.geojson --hole 1
-
-# Filter by course name if multiple courses are present in the GeoJSON
-python -m src path/to/course.geojson --course-name "Augusta National"
+# Run React frontend tests (Zod validation, pan/zoom math, shot planner, 4-course parity)
+cd web
+npm test
 ```
 
-### Export Interactive Viewer & Overhead Yardage Book Images
+For the 1:1 feature parity breakdown against the legacy viewer, refer to [docs/PARITY_CHECKLIST.md](docs/PARITY_CHECKLIST.md).
 
-```bash
-# Export standalone interactive vector HTML viewer
-python -m src path/to/course.geojson --export-html ./output/course_interactive.html
+---
 
-# Export overhead yardage book PNG images
-python -m src path/to/course.geojson --export-images ./output --dpi 200
-```
+## Security & Privacy
 
-## Python API Usage
+- **Static Architecture**: Hosted statically with no backend, no database, and no runtime API calls.
+- **Content-Security-Policy**: Enforced via `<meta http-equiv>` and `_headers` (`default-src 'self'`).
+- **No Untrusted Injection**: All SVG paths are bound to native `d` attributes; `dangerouslySetInnerHTML` is never used.
+- **Session Privacy**: The shot planner stores all points in transient React state without writing to `localStorage`, cookies, or URL query parameters.
 
-```python
-from src.course_geometry import GolfCourse
+---
 
-# 1. Ingest course GeoJSON
-course = GolfCourse.from_geojson("tests/fixtures/sample_course.geojson")
-print(f"Course: {course.name}, Holes: {len(course.holes)}")
+## Licensing & Attribution
 
-# 2. Get specific hole
-hole = course.get_hole(1)
-print(f"Hole 1: Par {hole.par}, {hole.length_yards} yards")
-
-# 3. Check surface lie & hazard containment
-coords = (-82.0200, 33.5040)  # (lon, lat) or dict {"lat": 33.504, "lng": -82.020}
-lie = hole.get_surface_type(coords)
-dist_to_pin = hole.distance_to_pin(coords)
-print(f"Lie: {lie}, Distance to pin: {dist_to_pin} yards")
-
-# 4. Generate & save yardage book image
-img = hole.generate_image(dpi=200, rotated=True)
-hole.save_image("output/hole_01.png")
-```
-
-## Running Tests
-
-```bash
-python -m unittest discover tests
-```
+- **Map Data**: Derived from OpenStreetMap. &copy; OpenStreetMap contributors under the Open Database License ([ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)). See [DATA_LICENSE.md](DATA_LICENSE.md).
+- **Application Code**: Licensed under the project repository terms.

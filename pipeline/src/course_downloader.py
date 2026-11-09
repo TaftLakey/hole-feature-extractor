@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import re
 import time
 from pathlib import Path
@@ -36,7 +37,8 @@ OVERPASS_ENDPOINTS = [
     "https://overpass.kumi.systems/api/interpreter",
 ]
 
-USER_AGENT = "HoleFeatureExtractor/1.0 (golf research & geometry engine)"
+_contact = os.environ.get("OSM_CONTACT_EMAIL", "https://github.com/golf-course-viewer")
+USER_AGENT = f"HoleFeatureExtractor/1.0 (+{_contact}; golf research & geometry engine)"
 
 
 def slugify(text: str) -> str:
